@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Luxurious+Roman&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+:root {
+    --main-bg-color:#1c0303;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: "Roboto Slab", serif;
+    height: 10vh;
+}
+nav{
+    display: flex;
+    /* height: 10vh; */
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: palegoldenrod;
+   font-weight: bolder;
+}
+footer{
+    background-color: var(--main-bg-color);
+    color: #ffffff;
+    height: 5vh;
+    font-family: "Roboto Slab", serif;
+    
+}
